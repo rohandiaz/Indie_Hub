@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import axios from 'axios'
 
 const Navbar = () => {
-    const user = false;
+    const user = true;
 
     return (
         <div className='bg-white'>
